@@ -1,0 +1,3 @@
+$(document).ready(function(){wrap_ymGroup()});function wrap_ymGroup(){bindJqueryBubbleUp();bindClickSinglePerson()}
+function bindClickSinglePerson(){$(".peopleShow-1").bind("click",function(){$(window).scrollTop(500)});$(".peopleShow-2").bind("click",function(){$(window).scrollTop(2600)});$(".peopleShow-3").bind("click",function(){$(window).scrollTop(1E3)});$(".peopleShow-4").bind("click",function(){$(window).scrollTop(2200)});$(".peopleShow-5").bind("click",function(){$(window).scrollTop(1460)})}
+function bindJqueryBubbleUp(){isIeVersion("8.0")||$("#sareInnerDiv ul#sareMenu li img").bubbleup({tooltip:!0,scale:80})};

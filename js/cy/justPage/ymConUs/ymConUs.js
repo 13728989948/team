@@ -1,0 +1,1 @@
+$(document).ready(function(){wrap_ymConUs()});function wrap_ymConUs(){bindJqueryBubbleUp()}function bindJqueryBubbleUp(){isIeVersion("8.0")||$("#sareInnerDiv ul#sareMenu li img").bubbleup({tooltip:!0,scale:80})};
